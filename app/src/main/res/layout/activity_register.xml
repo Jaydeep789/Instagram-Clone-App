@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    tools:context=".Activities.RegisterActivity">
+
+    <TextView
+        android:id="@+id/instagram_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:fontFamily="@font/lobster_two_italic"
+        android:text="@string/instagram"
+        android:textColor="@color/colorBlack"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/username_edittext_register_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/instagram_textview"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_border"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/username_register_page"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/fullname_edittext_register_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/username_edittext_register_page"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_border"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/name_register_page"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/email_edittext_register_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/fullname_edittext_register_page"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_border"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/email_register_page"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/password_edittext_register_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/email_edittext_register_page"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_border"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:hint="@string/password_register_page"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/register_button_register_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/password_edittext_register_page"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="@string/register_button_register_page"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_button_register_page"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="Already have a account? Login"/>
+
+</RelativeLayout>

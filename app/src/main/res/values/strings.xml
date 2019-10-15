@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="instagram">ℑ𝔫𝔰𝔱𝔞𝔤𝔯𝔞𝔪</string>
+
+
+    <string name="log_in_start_page">log in</string>
+    <string name="register_start_page">register</string>
+
+    <string name="username_register_page">Username</string>
+    <string name="name_register_page">Name</string>
+    <string name="email_register_page">Email</string>
+    <string name="password_register_page">Password</string>
+    <string name="register_button_register_page">register</string>
+    <string name="login_login_page">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_string">Search</string>
+    <string name="follow_text">follow</string>
+    <string name="post">post</string>
+    <string name="description">Description</string>
+    <string name="username">username</string>
+</resources>

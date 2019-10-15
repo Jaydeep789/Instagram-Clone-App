@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/instagram_textview_start_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/lobster_two_italic"
+        android:text="@string/instagram"
+        android:textColor="@color/colorBlack"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/login_button_start_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instagram_textview_start_page"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="sans-serif"
+        android:text="@string/log_in_start_page"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/register_button_start_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button_start_page"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="sans-serif"
+        android:text="@string/register_start_page"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>
