@@ -7,6 +7,8 @@ Home Page
 
 Search Page
 
+<a href="https://imgflip.com/gif/3exye9"><img src="https://i.imgflip.com/3exye9.gif" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/3exy3i"><img src="https://i.imgflip.com/3exy3i.gif" title="made at imgflip.com"/></a>
 
 Profile Page
